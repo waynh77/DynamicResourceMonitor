@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic Resource Monitor menemukan anomali</title>
+  <desc id="desc">Tampilan terminal aplikasi saat proses melebihi batas CPU atau RAM.</desc>
+  <rect width="900" height="430" rx="12" fill="#1e1e1e"/>
+  <rect width="900" height="36" rx="12" fill="#333333"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="44" cy="18" r="6" fill="#ffbd2e"/><circle cx="66" cy="18" r="6" fill="#27c93f"/>
+  <text x="88" y="23" fill="#d4d4d4" font-family="Consolas,monospace" font-size="14">Dynamic Resource Monitor</text>
+  <g font-family="Consolas,monospace" font-size="17" fill="#d4d4d4">
+	<text x="28" y="76" fill="#4ec9b0">=== DYNAMIC RESOURCE MONITOR ===</text>
+	<text x="28" y="108">Batas Anomali Saat Ini -&gt; CPU: 40% | RAM: 1500 MB</text>
+	<text x="28" y="140" fill="#c586c0">Kontrol: [C] Ubah Batas CPU | [R] Ubah Batas RAM | [Q] Keluar</text>
+	<text x="28" y="184" fill="#dcdcaa">Nama Proses                 | ID       | CPU (%)  | RAM (MB)</text>
+	<text x="28" y="204" fill="#808080">----------------------------------------------------------------</text>
+	<text x="28" y="250" fill="#f44747">chrome                      | 12480    | 87.42    | 1842.35  &lt;-- ANOMALI!</text>
+	<text x="28" y="282" fill="#f44747">dotnet                      | 16320    | 12.18    | 1710.60  &lt;-- ANOMALI!</text>
+	<text x="28" y="398" fill="#808080">Proses ditandai jika CPU atau RAM melewati batas</text>
+  </g>
+</svg>
